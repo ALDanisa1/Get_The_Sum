@@ -36,7 +36,7 @@ public class Get_The_Sum {
                 }
             }
         }
-        System.out.println(nums);
+        System.out.println(Solution(nums,target));
     }
     public static String Solution(ArrayList<Integer> nums,int target){
         for(int i = 0;i< nums.size(); i++){
