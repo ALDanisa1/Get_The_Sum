@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19e36444-3616-4c3b-a0de-ed64d1bbc906" name="Changes" comment="" />
+    <list default="true" id="19e36444-3616-4c3b-a0de-ed64d1bbc906" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/numbers.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657686274972</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Solution method.">
+      <created>1657686454099</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657686454099</updated>
+    </task>
+    <task id="LOCAL-00007" summary="First Version">
+      <created>1657686586595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657686586595</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +131,8 @@
     <MESSAGE value="Taking the numbers as user input." />
     <MESSAGE value="Added check_target method" />
     <MESSAGE value="Added Sum method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sum method." />
+    <MESSAGE value="Added Solution method." />
+    <MESSAGE value="First Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Version" />
   </component>
 </project>
