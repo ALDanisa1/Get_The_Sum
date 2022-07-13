@@ -38,4 +38,13 @@ public class Get_The_Sum {
         }
         System.out.println(nums);
     }
+    public static boolean check_target(int target,int number){
+        boolean target_met = false;
+        if(target == number ){
+            target_met = true;
+            return target_met;
+        }
+        else {
+            return target_met;
+        }}
 }
