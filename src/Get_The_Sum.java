@@ -38,6 +38,21 @@ public class Get_The_Sum {
         }
         System.out.println(nums);
     }
+    public static String Solution(ArrayList<Integer> nums,int target){
+        for(int i = 0;i< nums.size(); i++){
+            for (int j = 0; j < nums.size(); j++) {
+                int answer = sum(nums.get(i),nums.get(j));
+                if(check_target(target,answer)){
+                    System.out.println("The numbers that can meet the target are " +nums.get(i)+" and "+nums.get(j)+".");
+                    return  "They can be found in position " + i + " and " + j +".";
+                }
+                else if(!check_target(target, answer) && i == nums.size()-1 && j == nums.size()-1){
+                    return "Sorry Target Not met try using different values.";
+                }
+            }
+        }
+        return null;
+    }
     public static boolean check_target(int target,int number){
         boolean target_met = false;
         if(target == number ){

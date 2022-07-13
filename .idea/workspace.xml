@@ -81,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657685498711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added check_target method">
+      <created>1657686159864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657686159864</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Sum method.">
+      <created>1657686274971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657686274972</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +113,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Taking the file user input." />
     <MESSAGE value="Taking the numbers as user input." />
-    <option name="LAST_COMMIT_MESSAGE" value="Taking the numbers as user input." />
+    <MESSAGE value="Added check_target method" />
+    <MESSAGE value="Added Sum method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Sum method." />
   </component>
 </project>
