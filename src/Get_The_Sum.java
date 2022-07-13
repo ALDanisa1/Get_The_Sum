@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Get_The_Sum {
     public static void main(String[] args) throws FileNotFoundException {
+        System.out.println("Enter the target number");
         Scanner input = new Scanner(System.in);
         int target = input.nextInt();
         String empty = input.nextLine();
