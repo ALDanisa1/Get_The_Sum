@@ -24,8 +24,18 @@ public class Get_The_Sum {
             }
 
         }
-/*        else if (question.equalsIgnoreCase("n")) {
+       else if (question.equalsIgnoreCase("n")) {
+            System.out.println("Enter the numbers and press q to cancel");
+            String numbers = input.nextLine();
+            nums.add(Integer.parseInt(numbers));
 
-        }*/
+            while(!(numbers.equalsIgnoreCase("q") )){
+                numbers = input.nextLine();
+                if(!(numbers.equalsIgnoreCase("q") )){
+                    nums.add(Integer.parseInt(numbers));
+                }
+            }
+        }
+        System.out.println(nums);
     }
 }
