@@ -47,4 +47,9 @@ public class Get_The_Sum {
         else {
             return target_met;
         }}
+    public static int sum(int a, int b){
+        int answer = 0;
+        answer = a+b;
+        return answer;
+    }
 }
